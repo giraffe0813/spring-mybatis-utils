@@ -1,0 +1,2 @@
+# spring-mybatis-utils
+一个利用注解和反射的工具类 避免在使用基于注解的mybatis时因为表字段太多而写过长的sql
