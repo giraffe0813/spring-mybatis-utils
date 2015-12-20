@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6f98529-a22a-4d77-b88b-cc049b4f7dea" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_2_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_2_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_2_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_2_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_2_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_2_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_2_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ymy.com.test.iml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ymy/com/rabbitmq/demo/service/impl/MessageConsumerService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ymy/com/rabbitmq/demo/service/impl/MessageProductorService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/bpm-skyrim-mq-2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/me/ele/bpm/skyrim/test/base/TestBase.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/me/ele/bpm/skyrim/test/service/MessageManagerTest.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-    </list>
+    <list default="true" id="c6f98529-a22a-4d77-b88b-cc049b4f7dea" name="Default" comment="" />
     <ignored path="ymy.com.test.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -86,8 +65,8 @@
       <file leaf-file-name="SqlGenrateUtil.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ymy/com/mybatis/demo/utils/SqlGenrateUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.09350238">
-              <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.33438987">
+              <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#539#554#0" expanded="true" />
@@ -243,10 +222,10 @@
         <option value="$PROJECT_DIR$/src/main/java/ymy/com/mybatis/demo/dao/PoiDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/ymy/com/mybatis/demo/annotation/Column.java" />
         <option value="$PROJECT_DIR$/src/main/java/ymy/com/mybatis/demo/utils/PoiSqlProvider.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ymy/com/mybatis/demo/utils/SqlGenrateUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/ymy/com/mybatis/demo/service/impl/PoiService.java" />
         <option value="$PROJECT_DIR$/src/main/java/ymy/com/mybatis/demo/model/Poi.java" />
         <option value="$PROJECT_DIR$/src/main/java/ymy/com/mybatis/demo/dao/PoiSqlProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ymy/com/mybatis/demo/utils/SqlGenrateUtil.java" />
       </list>
     </option>
   </component>
@@ -816,15 +795,15 @@
       <created>1447069706334</created>
       <option name="number" value="Default" />
       <updated>1447069706334</updated>
-      <workItem from="1447069709762" duration="1840000" />
+      <workItem from="1447069709762" duration="2360000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1840000" />
+    <option name="totallyTimeSpent" value="2360000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="33" y="23" width="1247" height="777" extended-state="6" />
+    <frame x="33" y="23" width="1247" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -1006,8 +985,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ymy/com/mybatis/demo/utils/SqlGenrateUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.09350238">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.33438987">
+          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#539#554#0" expanded="true" />
