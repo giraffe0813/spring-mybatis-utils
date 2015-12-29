@@ -51,7 +51,7 @@ public class PoiBo {
 The following code snippet shows we must write long sql for a model with a lot of attributes without using utils.
 
 ```java
- @Insert("insert into poi_shop(name,brand,tags,status,phone,mobile,business_time,address,city,lng,lat,business_type,attribute_json) values(#{name},#{brand},#{tags},#{status},#{phone},#{mobile},#{business_time},#{address},#{city},#{lng},#{lat},#{business_type},#{attribute_json})")
+@Insert("insert into poi_shop(name,brand,tags,status,phone,mobile,business_time,address,city,lng,lat,business_type,attribute_json) values(#{name},#{brand},#{tags},#{status},#{phone},#{mobile},#{business_time},#{address},#{city},#{lng},#{lat},#{business_type},#{attribute_json})")
 @Options(useGeneratedKeys = true, keyProperty = "id", keyColumn = "id")
 public Long insertPoiInfo(PoiBo poiBo);
 ```
@@ -103,7 +103,7 @@ Now, we modify the PoiBo with Column annotation and use tool to help us generate
 modify interface 
 
 ```java
- @InsertProvider(type = PoiSqlProvider.class, method = "insertPoiBo")
+@InsertProvider(type = PoiSqlProvider.class, method = "insertPoiBo")
 public Long insertPoiInfo(@Param("poiBo")PoiBo poiBo);
 ```
 create PoiSqlProvider.class and implement inserPoiBo method using SqlGenrateUtil class.The SqlGenrateUtil class has a method *getInsertSql* for generate insert sql based on model.
