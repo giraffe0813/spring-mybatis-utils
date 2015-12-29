@@ -15,7 +15,7 @@ public interface PoiDao {
 
 
     /**
-     * 未使用注解的方法
+     * without using utils
      * @param poiBo
      * @return
      */
@@ -24,8 +24,11 @@ public interface PoiDao {
     public int insertPoiInfo(Poi poiBo);
 
 
-
-
+    /**
+     * using utils
+     * @param poiBo
+     * @return
+     */
     @InsertProvider(type = PoiSqlProvider.class, method = "insertPoiBo")
     public int insertPoiInfoNew(@Param("poiBo")Poi poiBo);
 

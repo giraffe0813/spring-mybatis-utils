@@ -13,12 +13,10 @@ public class PoiSqlProvider {
 
     public String insertPoiBo(Map<String,Object> map){
         Poi poiBo = (Poi)map.get("poiBo");
-        StringBuilder sql = new StringBuilder("insert into poi_shop ");
+        StringBuilder sql = new StringBuilder("insert into poi_shop ");//table name is poi_shop
         //get sql via reflection and annotation
-        Map<String,String> sqlMap = SqlGenrateUtil.getAllPropertiesForSql(poiBo, "poiBo");
-        sql.append(sqlMap.get("field")).append(sqlMap.get("value"));
-        System.out.println(sql.toString());
-        return sql.toString();
+        String insertSql = SqlGenrateUtil.getInsertSql(poiBo, "poiBo");
+        return insertSql;
 
     }
 

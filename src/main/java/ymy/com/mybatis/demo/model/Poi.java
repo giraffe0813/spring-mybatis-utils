@@ -6,14 +6,14 @@ import java.math.BigInteger;
 import java.sql.Timestamp;
 
 /**
- * 映射数据库的model
+ * Poi model
  * Created by yemengying on 15/11/9.
  */
 public class Poi {
 
-    @Column
+    @Column//represent id attribute match id filed in database
     private BigInteger id;
-    @Column(name = "poi_name")
+    @Column(name = "poi_name")//represent name attribute match poi_name filed in database
     private String name;
     @Column(name = "poi_brand")
     private String brand;
